@@ -1,4 +1,4 @@
-# empty-project
+# shopping
 
 Empty project.
 
@@ -31,14 +31,6 @@ npm run build-dev
 ## Running
 
 Open the file `dist/index.html` in your browser
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
-```
 
 ## Credits
 
