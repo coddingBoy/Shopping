@@ -1,0 +1,38 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shopping-dev-120358-authRole",
+      "UnauthRoleArn": "arn:aws:iam::201202048214:role/amplify-shopping-dev-120358-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::201202048214:role/amplify-shopping-dev-120358-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-shopping-dev-120358-deployment",
+      "UnauthRoleName": "amplify-shopping-dev-120358-unauthRole",
+      "StackName": "amplify-shopping-dev-120358",
+      "StackId": "arn:aws:cloudformation:us-east-2:201202048214:stack/amplify-shopping-dev-120358/5371fee0-faf6-11ea-82ce-0a93fcde8dac",
+      "AmplifyAppId": "d35mqkh1c26vjj"
+    }
+  },
+  "auth": {
+    "shopping37bcd711": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-shopping-dev-120358-deployment/amplify-cfn-templates/auth/shopping37bcd711-cloudformation-template.yml",
+        "logicalId": "authshopping37bcd711"
+      },
+      "lastPushTimeStamp": "2020-09-20T04:14:51.417Z",
+      "output": {
+        "AppClientSecret": "4htms5he7pu2qpmclcrchdk8oedvo6v156ptdtpcggtvrhs2a97",
+        "UserPoolId": "us-east-2_eAgJHewcw",
+        "AppClientIDWeb": "1nptl7hp70s4u4d875bku0ud1j",
+        "AppClientID": "26srqgs318t7e0faks7i07lg9g",
+        "IdentityPoolId": "us-east-2:beeedfe4-e0d2-45cb-baf0-c546737457b8",
+        "IdentityPoolName": "shopping37bcd711_identitypool_37bcd711__dev",
+        "UserPoolName": "shopping37bcd711_userpool_37bcd711"
+      },
+      "lastPushDirHash": "F3JWeOwOEnil1uNHty1OosAfYs4="
+    }
+  }
+}
