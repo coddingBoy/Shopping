@@ -12,6 +12,11 @@ const config = {
 	module: {
 		rules: [
 			{
+				test: /\.mjs$/,
+				include: /node_modules/,
+				type: 'javascript/auto',
+			},
+			{
 				test: /\.(js|jsx)$/,
 				use: 'babel-loader',
 				exclude: /node_modules/,
@@ -76,7 +81,7 @@ const config = {
 		],
 	},
 	resolve: {
-		extensions: ['.js', '.jsx', '.tsx', '.ts'],
+		extensions: ['.mjs', '.js', '.jsx', '.tsx', '.ts'],
 		alias: {
 			'react-dom': '@hot-loader/react-dom',
 		},

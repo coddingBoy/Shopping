@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "shopping37bcd711": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

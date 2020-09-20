@@ -1,22 +1,18 @@
 import * as React from 'react'
 import { hot } from 'react-hot-loader/root'
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 
-interface Props {
-	name:
-	string
-}
-
-class App extends React.Component<Props> {
+class App extends React.Component {
 	render() {
-		const { name } = this.props;
 		return (
 			<>
 				<h1>
-					Hello {name}
+					Hello Strataki
 				</h1>
+				<AmplifySignOut />
 			</>
 		);
 	}
 }
 
-export default hot(App)
+export default withAuthenticator(hot(App))
